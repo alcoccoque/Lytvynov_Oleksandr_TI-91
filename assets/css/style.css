@@ -768,5 +768,16 @@
          font-size: 16px;
     }
 }
+@media only screen and (max-device-width: 500px){
+  .headerMenu .menu {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .menu li {
+    margin: 2vh;
+  }
+}
 /* #RESPONSIVE - END*/
 /*# sourceMappingURL=../css/style.map */
